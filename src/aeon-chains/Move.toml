@@ -1,0 +1,12 @@
+[package]
+name = "aeon-chains"
+version = "0.0.1"
+published-at = "0xb8f1cedd36ddcfcac12b7a6c698adf6936ca0de3f09ef08cf6786f36bb9a0e35"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "041c5f2"
+
+[addresses]
+aeon_chains = "0xb8f1cedd36ddcfcac12b7a6c698adf6936ca0de3f09ef08cf6786f36bb9a0e35"

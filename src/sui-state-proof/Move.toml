@@ -1,0 +1,12 @@
+[package]
+name = "sui-state-proof"
+version = "0.0.1"
+published-at = "0xda701d27f2d246f9c7d0f3dca95ae63b532c50da3af497a1e25ab2e353f33474"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "041c5f2"
+
+[addresses]
+sui_state_proof = "0xda701d27f2d246f9c7d0f3dca95ae63b532c50da3af497a1e25ab2e353f33474"
